@@ -48,28 +48,32 @@
   text-align: justify;
   border-right: 10px;
 }
-/* div {
-  display: flex;
-}
-.articleFig {
-  width: 40%;
-  text-align: right;
-  margin: 20px;
-  padding: 20px;
-  display: flex;
-}
-img {
-  width: ;
-}
-.articlepart {
-  width: 56%;
-  text-align: justify;
-  margin-left: 20px;
-} */
+
 footer {
   text-align: center;
   background-color: #050505;
   color: white;
   margin-top: 20px;
   padding: 20px;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  box-shadow: 2px 3px 6px #050505;
+  /* border-radius: 6px; */
+}
+td,
+th {
+  border: 1px solid #050505;
+  padding: 10px 20px;
+
+  /* margin: 15px; */
+}
+.tableCaption {
+  margin: 10px;
+  font-size: larger;
+  font-weight: bold;
 }
